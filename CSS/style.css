@@ -1,0 +1,54 @@
+/* variables declared here - these are the colors for our pages */
+:root {
+    --lightblue: #007BF9;
+    --White: #ffffff;
+    --black: #000000;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background: linear-gradient(#007BF9,#ffffff,#007BF9,#ffffff,#007BF9,#ffffff);
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover {
+    color: var(--White);
+}
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li {
+    display: inline-flex;
+    padding: 1rem;
+}
+a{
+    color: var(--black);
+    text-decoration: none;
+}
+/* Content */
+.pay, h2 {
+    padding-left: 10rem;
+}
+.goo {
+    display: inline-block;
+    margin: 1rem 1rem;
+}
+/* COMMENTS */
+.comment {
+    border: 1px solid var(--lightblue);
+    margin: 10px 20px;
+    padding: 5px;
+}
+/* FOOTER */
+.footer {
+    line-height: 20px;
+}
+.footer-content {
+    background-color: var(--black);
+    color: var(--White);
+    margin-top: 10rem;
+    padding: 50px;
+}

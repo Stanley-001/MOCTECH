@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Contact StanPay Bank</title>
+</head>
+<style>
+    .contactCon {
+            align-items: center;
+        }
+        .contact {
+            background-color: var(--lightblue);
+            padding: 15vh;
+        }
+        .contact h5 {
+            font-size: 15px;
+        }
+        .contact h1 {
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .contact p {
+            line-height: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        .col-md-6 img {
+            width: 100%;
+            height: 60vh;
+        }
+        .pro {
+            margin-bottom: 80px;
+            color: var(--lightblue);
+        }
+        .pro h1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .linkk {
+            background-color: var(--black);
+            padding: 40px;
+        } 
+        .linkk a{
+            color: var(--lightblue);
+            font-size: 25px;
+        }
+        .last img {
+            width: 100vh;
+            height: 40vh;
+        }
+        .linkk {
+            background-color: var(--black);
+            padding: 40px;
+        } 
+        .linkk a{
+            color: var(--lightblue);
+            font-size: 25px;
+        }
+        .add {
+            background-color: var(--White);
+            padding: 30px;
+        }
+        .details input, select {
+            width: 100%;
+            margin: 15px;
+            padding: 15px;
+            background-color: var(--White);
+            border: none;
+        }
+        .details input, select :active{
+            outline: none;
+        }
+        textarea {
+            width: 100%;
+            height: 500%;
+            margin-left: 1rem;
+        }
+        textarea, option :focus{
+            outline: none;
+        }
+        #submit:hover {
+            background-color: var(--lightblue); 
+            color: var(--White); 
+            font-size: 20px;
+        }
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navbar display">
+                <ul>
+                    <li class="logo"> <a href="index.html">Stan<span style="color: var(--White)";>Pay</span></a></li>
+                    <li> <a href="about.html"> About Us</a></li>
+                    <li> <a href="contact.html"> Contact Us</a></li>
+                    <li> <a href="OpenAccount.html">Banking</a></li>
+                    <li> <a href="security.html"> Security</a></li>
+                </ul>
+                <div class="navbar">
+                    <ul>
+                        <li> <a href="media.html">Media</a></li>
+                        <li> <a href="policy.html">Privacy Policy</a></li>
+                        <li> <a href="partnerShip.html">Sponsorships / Partnerships</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 1st CONTENT -->
+    <div class="container-fluid">
+        <div class="row contactCon">
+            <div class="col-md-6 contact">
+                <h5>BACK TO: <a href="index.html">HOME</a></h5>
+                <h1>Contact</h1>
+                <p>Reach our help centre anytime, anywhere or everyday</p>
+                <p>to get assistance using our products and services.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./IMG/contact.avif" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT DETAILS -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center pro">
+                <h1>We Are at Your Service</h1>
+                <p style="color: var(--black); opacity: 0.7; font-size: 25px; font-weight: 500;">Our service operatives are available to assist you anytime. Just fill the form below</p>
+            </div>
+            </div>
+            <!-- INPUT DETAILS -->
+            <form action="">
+            <div class="row input">
+                <!-- 1 -->
+                <div class="col-md-6 details">
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                </div>
+                <div class="col-md-6 details">
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                </div>
+                <!-- 2 -->
+                <div class="col-md-6 details">
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="col-md-6 details">
+                    <input type="tel" id="tel" name="tel" placeholder="Phone Number">
+                </div>
+                <!-- 3 -->
+                <div class="col-md-6 details">
+                    <select id="country" name="country">
+                        <option value="occupation">Occupation</option>
+                        <option value="student">Student</option>
+                        <option value="selfemployed">Self Employed</option>
+                        <option value="civil">Civil Servant</option>
+                        <option value="profession">Professional</option>
+                        <option value="unemployed">Unemployed</option>
+                        <option value="others">Others</option>
+                      </select>
+                </div>
+                <div class="col-md-6 details">
+                    <select id="customer" name="customer">
+                        <option value="customer">Existing Customer:</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                      </select>
+                </div>
+                <!-- 4 -->
+                <div class="col-md-6 details">
+                    <select id="location" name="location">
+                        <option value="location">Location:</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="China">China</option>
+                        <option value="Congo">Congo</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="United State">United State</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                      </select>
+                </div>
+                <div class="col-md-6 details">
+                    <select id="category" name="category">
+                        <option value="category">Contact Category:</option>
+                        <option value="atm">ATM Dispense Error Complaint</option>
+                        <option value="pos">POS/Web Dispute</option>
+                        <option value="career">Careers & Job Vacancies</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="enquiry">Enquiry</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="investor">Investor Relations</option>
+                        <option value="online">Online Banking</option>
+                        <option value="products">Products & Services</option>
+                        <option value="Subsidiaries">Subsidiaries</option>
+                        <option value="other">Others</option>
+                      </select>
+                </div>
+                <!-- 5 -->
+                <div class="col-md-12">
+                    <textarea name="message" id="message" placeholder="Message..."></textarea>
+                </div>
+                <!-- 6 -->
+                <div class="col-md-6">
+                    <p style="font-size: 20px; font-weight: bold; margin-top: 15rem;"><input type="checkbox">I agree to the <a href="policy.html"> Privacy Policy</a></p>
+                </div>
+                <!-- 7 -->
+                <div class="col-md-12 details">
+                    <input type="submit" value="Send Request" id="submit">
+                </div>
+            </div>
+            </form>
+
+            <!-- HEAD OFFICE -->
+            <div class="col-md-12 text-center pro">
+                <h1>Contact Details</h1>
+            </div>
+            <div class="col-md-12 add">
+                <pre><b>Office Address</b>         <b>Helpdesk</b></pre>
+                <h3>StanPay Bank of Nigeria Ltd.</h3>
+                <h3>Head Office Address</h3>
+                <p>Anugom Stanley House</p>
+                <p>35 Marina</p>
+                <p>P.O. BOX 5216,</p>
+                <p>Lagos,</p>
+                <p>Nigeria.</p>
+            </div>
+
+            <!-- LAST CONTENT -->
+            <div class="row">
+                <div class="col-md-12 text-center pro">
+                    <h1>See also</h1>
+                </div>
+                <div class="col-md-3 last">
+                    <img src="IMG/Whistleblowing.jpg" class="img-fluid" alt="">
+                    <div class="linkk"> <a href="security.html">Whistle Blowing</a></div>
+                </div>
+                <div class="col-md-3 last">
+                    <img src="IMG/education.jpg" class="img-fluid" alt="">
+                  <div class="linkk"> <a href="partnerShip.html">Enterprise Innovation</a></div>
+                </div>
+                <div class="col-md-3 last">
+                    <img src="IMG/FSQS.webp" class="img-fluid" alt="">
+                   <div class="linkk"> <a href="about.html">FAQS</a></div>
+                </div>
+                <div class="col-md-3 last">
+                    <img src="IMG/saturday.avif" class="img-fluid" alt="">
+                  <div class="linkk"> <a href="account.html">Saturday Banking</a></div>
+                </div>
+            </div>
+    </div>
+    
+        <!-- FOOTERS -->
+
+        <div class="container-fluid footer-content">
+            <div class="row footer">
+                <div class="col-md-6">
+                    <h3>Why We Are The Best Mobile Banking App</h3>
+                </div>
+                <div class="col-md-3">
+                    <b>Secure transaction</b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iste velit libero quisquam porro?</p>
+                </div>
+                <div class="col-md-3">
+                    <b>Easy Process</b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iste velit libero quisquam porro?</p>
+                </div>
+            </div>
+            <div class="row footer">
+                <div class="col-md-2">
+                    <h3>5M+</h3>
+                    <small>Active User's</small>
+                </div>
+                <div class="col-md-2">
+                    <h3>10K+</h3>
+                    <small>Atm Booth</small>
+                </div>
+                <div class="col-md-2">
+                    <h3>1K+</h3>
+                    <small>Bank Outlets</small>
+                </div>
+                <div class="col-md-3">
+                    <b>Less Costly</b>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-md-3">
+                    <b>All In One</b>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h6>&copy; 2023 Stan<span style="color: var(--lightblue)";>pay</span>.com, Inc.</h6>
+                    <h3><a href="#" style="color: #fff;"> BANK TO TOP </a></h3>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

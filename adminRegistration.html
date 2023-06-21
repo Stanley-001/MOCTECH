@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./CSS/contentStyle.css">
+    <title>Admin Registration </title>
+</head>
+<style>
+    body {
+        box-sizing: border-box;
+    }
+    .pay {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 40px;
+        background-color: var(--black);
+        color: #fff;
+        box-sizing: border-box;
+    }
+    span {
+        color: var(--lightblue);
+    }
+    .details input, select {
+            width: 100%;
+            margin: 15px;
+            padding: 15px;
+            background-color: var(--lightblue);
+             color: #fff;
+            border: none;
+        }
+        ::placeholder {
+            color: #fff;
+        }
+        .details input, select :active{
+            outline: none;
+            color: #000;
+        }
+    footer {
+        margin-top: 20rem;
+        text-align: center;
+        background-color: var(--black);
+        width: 100%;
+        color: #fff;
+        padding: 10px;
+    }
+</style>
+<body>
+    <div class="content">
+        <div class="pay">
+            <div class="first">
+                <h1>StanPay <span> Bank</span> <img src="IMG/award.webp" alt="" height="35px" width="100px"></h1>
+                <h3>Since <span>1980</span></h3>
+            </div>
+            <div class="second">
+                <div class="col-md-6 line">
+                    <h1>StanPay<span>Online</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CREATE ACCOUNT -->
+    <div class="container">
+        <form action="">
+            <div class="row input">
+                <!-- 1 -->
+                <div class="col-md-12 details">
+                    <select id="location" name="location">
+                        <option value="location">Location:</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Austria">Canada</option>
+                        <option value="China">China</option>
+                        <option value="Congo">Congo</option>
+                        <option value="Congo">Dubai</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="United State">United State</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                      </select>
+                </div>
+                <div class="col-md-6 details">
+                    <input type="text" id="fname" name="fname" placeholder="Full Name">
+                </div>
+                <div class="col-md-6 details">
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="col-md-12 details">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="col-md-6">
+                    <p style="font-size: 20px; font-weight: bold;"><input type="checkbox">I agree to the <a href="policy.html"> Privacy Policy</a></p>
+                </div>
+                <div class="col-md-12 details">
+                    <input type="submit" value="Create Account" id="submit">
+                </div>
+            </div>
+            </form>
+        </div>
+
+    <footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>&copy;2023. Stan<span>Pay</span> Bank of Nigeria Ltd. All Rights Reserved</h3>
+                <h3><a href="index.html" style="color: #fff;"> Bank to Home Page </a></h3>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
